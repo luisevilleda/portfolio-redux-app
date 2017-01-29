@@ -1,104 +1,71 @@
 export function getPortfolio() {
   return [
     {
-    	link : 'http://www.goldmansachs.com',
-    	title : 'Goldman Sachs',
-    	classname : 'goldmans',
+    	link : 'https://my-nanny.org',
+    	title : 'My-Nanny',
+    	classname : 'mynanny',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			skills : 'React, Redux, Webpack'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Webpack'
+    			skills : 'Node, Express, MySQL, OAuth'
     		}
     	]
     },
     {
-    	link : 'http://www.libon.com/',
-    	title : 'Orange (Libon)',
-    	classname : 'orange',
+    	link : 'https://wikiLeeks.herokuapp.com/',
+    	title : 'WikiLeeks',
+    	classname : 'wikileeks',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, WebRTC, FireFoxOS'
+    			skills : 'Angular, Bootstrap'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Grunt'
+    			skills : 'Node, Express, MongoDB'
     		}
     	]
     },
     {
-    	link : 'http://www.pwul.net',
-    	title : 'Pay What You Like',
-    	classname : 'pwul',
+    	link : 'https://piddleBill.herokuapp.com',
+    	title : 'Piddle- Bill splitter',
+    	classname : 'piddle',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			skills : 'React, Bootstrap, Enzyme'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Gulp'
+    			skills : 'Node, Express, MongoDB'
     		}
     	]
     },
     {
-    	link : 'http://www.timeout.com/london/card',
-    	title : 'Timeout',
-    	classname : 'timeout',
+    	link : 'https://semblyApp.herokuapp.com',
+    	title : 'Sembly',
+    	classname : 'sembly',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
+    			skills : 'Ract-Native, React-Bootstrap, Facebook OAuth'
     		}
     	]
     },
     {
-    	link : 'http://www.tesco.com/direct',
-    	title : 'Tesco Entertainment',
-    	classname : 'tesco',
+    	link : 'https://www.luckybraids.com',
+    	title : 'Lucky Braids',
+    	classname : 'luckybraids',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
+    			skills : 'Shopify, Liquid, jQuery, HTML5'
     		}
     	]
     },
-    {
-    	link : 'http://onlinelibrary.wiley.com',
-    	title : 'John Wiley and Sons',
-    	classname : 'wiley',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.covestor.com',
-    	title : 'Covestor',
-    	classname : 'covestor',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.shipserv.com',
-    	title : 'ShipServ',
-    	classname : 'shipserv',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    }
   ]
 }
