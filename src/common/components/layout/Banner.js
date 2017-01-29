@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 
 class Banner extends Component {
+  unObfEmail() {
+    var email = 'yhvfrivyyrqn@tznvy.pbz';
+    return email.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+  };
 
   render() {
 
     return (
 	    <div className="contact-banner">
-      		<p>Contact me at <em>callum(at)deadtrendy.co.uk</em> or call <em>07919 411 405</em></p>
-      	</div>
+    		<p>Contact me at <em>
+          <a id="obfEmail" style={{color:'#fff'}} href={'mailto:' + this.unObfEmail()}>{this.unObfEmail()}</a>
+        </em></p>
+    	</div>
     );
   }
 }
