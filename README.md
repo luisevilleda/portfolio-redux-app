@@ -1,8 +1,5 @@
 # Portfolio Redux App
-
-A Portfolio example of an isomorphic rendering application in React and Redux. [Live Example Here](http://www.callumrimmer.co.uk)
-
-<img src="http://g.recordit.co/cO0pqgO8Fo.gif" width="728" />
+An isomorphic rendering application in React and Redux.
 
 ## Development Installation
 
@@ -35,10 +32,6 @@ Then Visit
 ```
 http://localhost:3002
 ```
-
-## Other Boilerplate code
-
-[General Redux App (with Undo)](https://github.com/caljrimmer/isomorphic-redux-app)
 
 ## Credit
 
