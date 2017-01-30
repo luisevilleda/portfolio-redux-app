@@ -22,7 +22,7 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>Full Stack Web Developer based in London</title>
+        <title>Full Stack Web Developer</title>
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
@@ -84,8 +84,8 @@ app.get('/*', function (req, res) {
 
 });
 
-const server = app.listen(3002, function () {
+const server = app.listen(3000, function () {
   const host = server.address().address;
   const port = server.address().port;
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Portfolio site listening at http://%s:%s', host, port);
 });
