@@ -10,7 +10,7 @@ class Banner extends Component {
     return (
 	    <div className="contact-banner">
     		<p>Contact me at <em>
-          <a id="obfEmail" style={{color:'#fff'}} href={'mailto:' + this.unObfEmail()}>{this.unObfEmail()}</a>
+          <a id="obfEmail" href={'mailto:' + this.unObfEmail()}>{this.unObfEmail()}</a>
         </em></p>
     	</div>
     );

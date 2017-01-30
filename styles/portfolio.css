@@ -33,7 +33,7 @@
 
 .portfolio_item .role {
     float: left;
-    color: #1db7a9;
+    color: #404E7C;
     font-size: 30px;
     font-weight: bold;
     text-transform:uppercase;
@@ -46,7 +46,7 @@
     font-size: 22px;
     font-weight: bold;
     margin: 10px;
-    color: #1db7a9;
+    color: #404E7C;
     line-height: 24px;
     text-align: right;
 }
@@ -61,21 +61,21 @@
 */
 
 .mynanny {
-	background:#fff url(assets/goldmans.jpg) top no-repeat;
+	background:#fff url(assets/mynanny.png) top no-repeat;
 }
 
 .wikileeks {
-	background:#fff url(assets/orange.jpg) top no-repeat;
+	background:#fff url(assets/wikileeks.png) top no-repeat;
 }
 
 .piddle {
-	background:#fff url(assets/tesco.png) top no-repeat;
+	background:#fff url(assets/piddle.png) top no-repeat;
 }
 
 .sembly {
-	background:#fff url(assets/timeout.png) top no-repeat;
+	background:#fff url(assets/sembly.png) top no-repeat;
 }
 
 .luckybraids {
-	background:#fff url(assets/wiley.png) top no-repeat;
+	background:#fff url(assets/luckybraids.png) top no-repeat;
 }

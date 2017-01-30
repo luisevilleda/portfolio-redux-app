@@ -41,7 +41,7 @@ export function getPortfolio() {
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, Express, MongoDB'
+    			skills : 'Node, Express, MySQL'
     		}
     	]
     },

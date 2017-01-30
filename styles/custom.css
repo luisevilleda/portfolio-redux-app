@@ -15,6 +15,10 @@ body {
   margin: 0;
 }
 
+#obfEmail {
+  color: #FE5F55;
+}
+
 .loader {
   display: flex;
   top: 0;
@@ -38,7 +42,7 @@ body {
   height: 35%;
   width: 35%;
   animation: pulse 0.75s ease-in infinite alternate;
-  background-color: #1db7a9;
+  background-color: #404E7C;
 }
 
 .an_delay {
@@ -61,41 +65,6 @@ ul.clients li {
    height:70px;
    text-indent:-5000px;
    box-shadow:1px 1px 1px #ccc;
-}
-
-ul.clients li.goldmans-logo {
-   background: url('assets/goldmans-logo.jpg') no-repeat;
-   width:124px;
-}
-
-ul.clients li.orange-logo {
-   background: url('assets/orange-logo.jpg') no-repeat;
-   width:70px;
-}
-
-ul.clients li.tesco-logo {
-   background: url('assets/tesco-logo.jpg') no-repeat;
-   width:181px;
-}
-
-ul.clients li.timeout-logo {
-   background: url('assets/timeout-logo.jpg') no-repeat;
-   width:151px;
-}
-
-ul.clients li.wiley-logo {
-   background: url('assets/wiley-logo.jpg') no-repeat;
-   width:169px;
-}
-
-ul.clients li.covestor-logo {
-   background: url('assets/covestor-logo.jpg') no-repeat;
-   width:218px;
-}
-
-ul.clients li.shipserv-logo {
-   background: url('assets/shipserv-logo.jpg') no-repeat;
-   width:218px;
 }
 
 /**
@@ -137,7 +106,7 @@ ul.clients li.shipserv-logo {
 }
 
 .skill-item ul li em {
-   background: #1db7a9;
+   background: #404E7C;
    display:inline-block;
    float:left;
    color:#fff;
@@ -149,8 +118,8 @@ ul.clients li.shipserv-logo {
 }
 
 .skill-item ul ul li em {
-   background: #d9ead3;
-   color: #1db7a9;
+   background: #B9BECF;
+   color: #404E7C;
 }
 
 .exclaimation {
@@ -163,8 +132,8 @@ ul.clients li.shipserv-logo {
 */
 
 .contact-banner {
-  background:#1db7a9;
-  color:#d9ead3;
+  background:#404E7C;
+  color:#B9BECF;
   text-align:center;
 }
 

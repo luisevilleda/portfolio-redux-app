@@ -22,6 +22,7 @@
 html,
 body {
   overflow-x: hidden;
+  background: url(assets/ricepaper.png);
 }
 
 html {
@@ -83,7 +84,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
-  background:#fff;
+  background: url(assets/stardust.png);
+
 }
 .masthead-title {
   margin-top: 0;
@@ -91,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
 }
 .masthead-title a {
-  color: #505050;
+  color: #e8e6e4;
   font-weight:bold;
 }
 .masthead-title small {
@@ -139,7 +141,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  background-color: #202020;
+  /*background-color: #202020;*/
+  background: url(assets/stardust.png);
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
@@ -283,9 +286,9 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-footer a{
-  color: #1db7a9;
+  color: #FE5F55;
   opacity: 0.8;
-  border-bottom:1px dotted #1db7a9;
+  border-bottom:1px dotted #404E7C;
   margin-right:1em;
 }
 
@@ -313,14 +316,14 @@ a.sidebar-nav-item:focus {
 }
 
 .banner a {
-  border-bottom: 1px dotted #1db7a9;
+  border-bottom: 1px dotted #404E7C;
   text-decoration:none;
 }
 
 .banner a:hover,
 .banner a:active
 .banner a:visited {
-  border-bottom: 2px dotted #1db7a9;
+  border-bottom: 2px dotted #404E7C;
 }
 
 /* Blog post or page title */
@@ -335,8 +338,8 @@ a.sidebar-nav-item:focus {
 }
 
 .post-title em {
-  background:#d9ead3;
-  color:#1db7a9;
+  background:#B9BECF;
+  color:#404E7C;
   padding:0em 0.3em 0em;
   margin:0.1em;
   font-style:normal;
@@ -368,7 +371,7 @@ a.sidebar-nav-item:focus {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #1db7a9;
+  color: #404E7C;
   text-decoration: none;
 }
 .related-posts li a:hover small {
