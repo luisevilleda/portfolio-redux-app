@@ -20,7 +20,7 @@ class Home extends Component {
       	<div className="posts">
   
   			<div className="post banner">
-			    <h1 className="post-title">I build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> front-end and full-stack web applications.</h1>
+			    <h1 className="post-title">I build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> front-end and full-stack web applications. These use only <em>dynamic programming</em> to <em>DP</em> you where it hurts...</h1>
           <p><a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 			</div>
   
@@ -31,6 +31,8 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Client Side JS</h4>
 					<ul className="">
+            <li><em>Coño.js</em></li>
+            <li><em>Dynamic Programming</em></li>
             <li><em>React</em>
               <ul>
                 <li><em>Redux</em></li>
